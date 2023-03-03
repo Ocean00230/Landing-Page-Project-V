@@ -1,17 +1,25 @@
-body {
-    background-color: #1F2937;
+.border {
+    border: 40px;
 }
+
 .header {
-    display: flex;
-    font-size: 20px;
-    color: white;
-    justify-content: flex-end;
+    display:flex;
+    justify-content: space-between;
+    padding: 16px;
+
 }
-.li {
-    padding: 10px;
- }
+
+#bar {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    list-style: none;
+    padding-top: 15px;
+}
 
 #logo {
-    justify-content:flex-end;
-    margin: auto;
+    list-style: none;
+    font-size: 24px;
+    padding-top: 15px;
 }
+
