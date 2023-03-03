@@ -1,0 +1,17 @@
+body {
+    background-color: #1F2937;
+}
+.header {
+    display: flex;
+    font-size: 20px;
+    color: white;
+    justify-content: flex-end;
+}
+.li {
+    padding: 10px;
+ }
+
+#logo {
+    justify-content:flex-end;
+    margin: auto;
+}
